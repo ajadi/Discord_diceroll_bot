@@ -1,4 +1,4 @@
-# discord DnD Bot
+# Discord DnD Bot
 
 This Discord bot allows rolling dice for Dungeons & Dragons games, supporting commands in the format /roll XdY(+Z). For example, /roll 2d20+5 or /roll 2d6+1d8+3.
 
@@ -23,7 +23,7 @@ This Discord bot allows rolling dice for Dungeons & Dragons games, supporting co
     ```sh
     pip install -r requirements.txt
     ```
-4. Replace YOUR_discord_BOT_TOKEN with your bot's token in the discord_diceroll_bot.py file.
+4. Replace YOUR_DISCORD_BOT_TOKEN with your bot's token in the discord_diceroll_bot.py file.
 
 ## License
 
