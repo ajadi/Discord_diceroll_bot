@@ -1,0 +1,12 @@
+[Unit]
+Description=Discord DnD Bot
+After=network.target
+
+[Service]
+User=your_username
+WorkingDirectory=/home/your_username/discord_diceroll_bot
+ExecStart=/home/your_username/discord_diceroll_bot/venv/bin/python /home/your_username/discord_diceroll_bot/discord_diceroll_bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
